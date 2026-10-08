@@ -1,0 +1,22 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+[build.environment]
+  NODE_VERSION = "22"
+[functions]
+  node_bundler = "esbuild"
+[[redirects]]
+  from = "/api/orders"
+  to = "/.netlify/functions/orders"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/api/orders/:id"
+  to = "/.netlify/functions/orders/:id"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/api/payos-webhook"
+  to = "/.netlify/functions/payos-webhook"
+  status = 200
+  force = true

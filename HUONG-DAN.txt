@@ -1,0 +1,26 @@
+LANDING MYB THANG 10 - THANH TOAN PAYOS
+
+1. Giai nen toan bo ZIP vao mot thu muc.
+2. Cai Node.js LTS neu may chua co: https://nodejs.org/en/download
+3. Nhan dup CAP-NHAT-NETLIFY.cmd.
+4. Khi trinh duyet mo, dang nhap dung tai khoan Netlify va chap nhan dang nhap CLI.
+5. Cho cua so hien DA CAP NHAT. Script se deploy vao stalwart-dragon-988b54.
+
+Website: https://stalwart-dragon-988b54.netlify.app/
+Ba bien PAYOS_CLIENT_ID, PAYOS_API_KEY, PAYOS_CHECKSUM_KEY phai da luu tren dung project nay.
+Khong dan khoa vao file HTML, JavaScript hoac gui vao chat.
+
+Neu dung Git: thu muc publish = public; functions = netlify/functions; npm ci.
+Khong chi keo tha public len Netlify Drop vi can deploy ca Functions.
+
+Dang ky: giu Apps Script va tab Dang ky WS thang 10 dot 1 hien co.
+Thanh toan: tao QR payOS 299.000d, han 30 phut. Trang uu-dai.html tu kiem tra trang thai payOS.
+Chi sau khi payOS xac nhan du tien moi hien thanh cong va chuyen vao nhom Zalo hien co.
+Don duoc luu bang Netlify Blobs, ton tai qua cac lan deploy.
+
+Webhook hien co o aimybacademy.com khong bi tu dong thay doi. Thanh toan trang moi van duoc kiem tra bang API payOS.
+Endpoint webhook moi neu can: https://stalwart-dragon-988b54.netlify.app/api/payos-webhook
+Chi doi webhook sau khi deploy thanh cong va xac dinh khong anh huong website cu dung chung kenh payOS.
+
+Ban nay da kiem tra bang du lieu gia lap; chua tao don hay chuyen tien that.
+File HTML rieng chi de xem trang 1. De chay dang ky va thanh toan, phai deploy toan bo goi nay.

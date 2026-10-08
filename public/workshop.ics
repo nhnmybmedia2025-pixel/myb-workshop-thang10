@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MYB Media//TikTok AI Workshop//VI
+BEGIN:VEVENT
+UID:myb-tiktok-workshop-20261015@mybmedia.vn
+DTSTAMP:20261005T000000Z
+DTSTART:20261015T123000Z
+DTEND:20261015T150000Z
+SUMMARY:Ứng dụng AI tối ưu TikTok Ads - Đón sóng tăng trưởng cuối năm
+DESCRIPTION:Workshop trực tuyến cùng Nguyễn Hải Nam và Đặng Đức Anh. Liên hệ MYB 0929.186.866 để nhận thông tin tham dự.
+LOCATION:Trực tuyến
+END:VEVENT
+END:VCALENDAR
